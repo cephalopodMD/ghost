@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/story"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:text="The horror The horror The horror\n\nIt was a good life you had, but you just couldn&apos;t keep yourself from opening the box.\n\nThose with whom you had worked for so many year were not so keen on adventuring further into the abyss. They were satisfied, foolishly satisfied, with the limits of their own knowledge\n\nYou alone were curious enough to continue your sick experiments on the dead. You alone had the drive to go on, to pusue everlasting life, to play god. Not even once did you question your own authority. This knowledge was your birthright. You were entitled to it. It was yours for the taking. Little did you know of the evils you might uncover.\n\nIs it better that you know now?\n\nYou couldn&apos;t stop yourself from eating the forbidden fruit - you had to. To fathom the mysteries of death itself, this was paramount! So you developed your technologies and honed your skill, and when you were done, there you were, ghost hunter extrodinaire.\n
+            But that wasn&apos;t enough. It could never be enough. You began to stalk the dead. With your locator, you found them, you followed them, you haunted them, and, for this, the dead became enraged.\n
+            The elder spirits alerted the freshly deceased, and those who had still not left the material plane were dispatched to destroy you. Their secrets could not be lost to the living. Your mortality was to their advantage. You were doomed.\n
+            But you had learned well from their secrets ...\n\n\nThe game:\n\nGhosts are a crafty bunch. They are invisible to the naked eye, but you can detect them with your device. They move a little under two feet per second.\n\n
+            Ghosts will rush you in increasing numbers over time. To move on, you must eliminate all ghosts in the area by bringing their bones to them. Every ghost you touch loses you 5 points per second. However, holding their bones also drains health at 1 point per second, and since ghosts will start running away from you at this point, it would be wise to make a quick pursuit.\n\n
+            You have 100 life points that are regenerated each round. If you lose them all, you lose a life and have to restart the rush. You get three lives over the course of the game. After that, they have you... it's over!"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:onClick="closeStory"
+        android:text="Back" />
+
+</RelativeLayout>
